@@ -1,1 +1,12 @@
 /* RESET */
+
+/* removes default margins on page */
+html, body {
+  margin: 0;
+}
+
+
+/* border-box tells browser to account for... */
+* {
+  box-sizing: border-box;
+}
