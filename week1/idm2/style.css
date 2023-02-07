@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+
+
+* {
+    box-sizing: border-box;
+}
+
+body, html {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background-color: black;
+    color: white;
+    font-family: sans-serif
+}
+
+#specialText {
+    color: red;
+}
+
+.highlight {
+    background-color: yellow;
+}
