@@ -1,0 +1,42 @@
+/* Layout 1, Pixels */
+
+main {
+  width: 960px;
+  /* first parameter is top and bottom, then is left and right
+  or could give 4 and have top right bot left */
+  margin: 0 auto;
+}
+
+article {
+  width: 580px;
+  float: left;
+  margin-right: 20px;
+}
+
+aside {
+  width: 300px;
+  float: left;
+  min-height: 500px;
+}
+
+article, aside {
+  padding: 20px;
+}
+
+ul.vertical-menu {
+  list-style-type: none;
+  padding: 0;
+}
+
+/* when there's a list item and an anchor inside of it */
+li a {
+  font-size: 18px;
+  color: purple;
+  text-decoration: none;
+  display: block;
+  padding: 10px 20px;
+}
+
+li a:hover {
+  background-color: rgba(0, 100, 255, .7);
+}
