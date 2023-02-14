@@ -8,6 +8,25 @@ html {
   background-size: cover;
 }
 
+/* nav bar styles */
+header {
+  width: 80%;
+  padding: 0 10%;
+  height: 50px;
+  position: fixed;
+  margin-bottom: 10px;
+  z-index: 10;
+  background-color: black;
+  background: url(../img/leaves.png);
+}
+
+header h1 {
+  color: #333;
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  font-family: 'Kaushan Script', cursive;
+}
 
 
 /* Container */
