@@ -68,6 +68,56 @@ nav a.active {
   color: white;
 }
 
+/* Transitions */
+.scaleUp:hover {
+  transform: scale(1.2);
+}
+
+.scaleX:hover {
+  transform: scaleX(1.2);
+}
+
+.scaleY:hover {
+  transform: scaleY(1.2);
+}
+
+.skewX:hover {
+  transform: skewX(-20deg);
+}
+
+.skewY:hover {
+  transform: skewY(20deg);
+}
+
+.rotate3d:hover {
+  transform: rotate3d(1, 1, 1, 45deg);
+}
+
+.rotX:hover {
+  transform: rotateX(120deg);
+}
+
+.rotZ:hover {
+  transform: rotateZ(45deg);
+}
+
+.rotY:hover {
+  transform: rotateY(45deg);
+}
+
+.rot:hover {
+  transform: rotate(45deg);
+  cursor: pointer;
+}
+
+.rotateLeft {
+  transform: rotate(-10deg);
+  transition: all 5s ease;
+}
+
+
+
+
 
 /* Container */
 .container{
@@ -82,6 +132,7 @@ nav a.active {
   width: 240px;
   display: inline-block;
   margin:20px;
+  transition: all .5s ease;
 }
 
 /* IMG with Border */
