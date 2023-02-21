@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  height: 50px;
+}
+
+/* .logo {
+  
+} */
+
+nav ul {
+  visibility: hidden;
+}
+
+
+.container {
+  display: flex;
+  flex-direction: column;
+  margin: 10% 0 0 10%;
+}
+
+.title {
+  width: 90%;
+  background-color: grey;
+  margin: 20px 0;
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+}
+
+.content .left {
+  width: 40%;
+  background-color: red;
+  margin: 0 5% 5% 0;
+  height: 20%;
+}
+
+.content .right {
+  width: 40%;
+  background-color: blue;
+  margin: 0 0 5% 5%;
+  height: 20%;
+}
