@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Event Delegation</title>
+  <style type="text/css">
+    .active {
+      color: red;
+      font-size: 3rem;
+    }
+  </style>
+</head>
+
+<body>
+  <p id="toggleMe">Just a paragraph waiting for some event delgation</p>
+  <button id="alertBtn">
+    Click to fire function
+  </button>
+  <script type="text/javascript">
+    function alertMe() {
+      alert('just another annoygin alert')
+    }
+
+    document.addEventListener('DOMContentLoaded', function() {
+      console.log('content is loaded')
+
+      document.getElementById('alertBtn').addEventListener('click', alertMe)
+
+      document.getElementById('toggleMe').addEventListener('click', function() {
+        console.log(event.target)
+        var element = event.target
+        element.classList.toggle('active')
+      })
+    })
+  </script>
+</body>
+
+</html>
