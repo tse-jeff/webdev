@@ -1,9 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Tip Calculator</title>
-  </head>
-  <body></body>
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Tip Calculator</title>
+  <script src="tip.js"></script>
+</head>
+
+<body>
+  <form>
+    <label for="bill">Bill:</label>
+    <input type="text" id="bill" name="bill" />
+    <p>Tip Amount</p>
+    <label for="tip">5%</label>
+    <input type="radio" id="tip" name="tip" value=".05" />
+    <label for="tip">10%</label>
+    <input type="radio" id="tip" name="tip" value=".1" />
+    <label for="tip">15%</label>
+    <input type="radio" id="tip" name="tip" value=".15" />
+    <label for="tip">20%</label>
+    <input type="radio" id="tip" name="tip" value=".20" />
+    <br />
+    <button id="submit">Submit</button>
+  </form>
+
+  <div id="output"></div>
+</body>
+
+
+
+
 </html>
