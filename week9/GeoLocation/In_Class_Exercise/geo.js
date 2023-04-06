@@ -16,6 +16,6 @@ function setPosition(position) {
   console.log(longitude);
 
   let loc = document.getElementById('location');
-  loc.innerHTML = 'Latitude: ' + latitude + ' Longitude: ' + longitude;
+  loc.innerHTML = 'Latitude: ' + latitude + '<br/> Longitude: ' + longitude;
 }
 
